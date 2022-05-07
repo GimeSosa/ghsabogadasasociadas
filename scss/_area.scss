@@ -1,0 +1,71 @@
+@import "_commons";
+@import "_nav";
+
+
+.fontType{
+	text-align:center;
+	font-family: $fontMain;
+	font-weight: 300;
+	font-size: map-get($size, size2);
+	color: map-get($estilos, color2);
+	padding-left:30px;
+
+
+}
+
+
+	.fontType-areas {		
+	@extend .fontType;
+	font-weight: 300;
+	text-shadow:  1px 1px 2px rgb(120, 120, 120);	
+	padding-top: 30px;
+	padding-left:20px;
+	font-size:  map-get($size, size1);
+}
+
+
+ main{
+ padding: 10px;
+ background-color: map-get($estilos, color2);
+ 
+
+}
+
+.carousel-item {
+  height: 75vh;
+}
+
+
+ .fontType-car{	
+ 	@extend .fontType;
+	font-weight: 500;
+	text-shadow:  3px 2px 2px rgb(240, 240, 240);
+}
+
+
+
+article{
+	background-color: map-get($estilos, color3);
+	padding-top:20px;
+	
+
+}
+
+
+.backColor{
+		background-color:white;
+	} 
+
+
+.tituloImp{
+	@include tituloImp;
+}
+
+
+
+
+
+
+
+
+

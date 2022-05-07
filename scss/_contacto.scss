@@ -1,0 +1,69 @@
+@import "_nav";
+@import "_commons";
+
+/*estilo y breakpoints de contacto.html*/
+
+body{
+	overflow-x: hidden;
+}
+
+legend{
+	padding: 10px;
+	font-family: $fontMain;
+}
+
+
+
+
+.form-label{
+		font-family: $fontMain;
+		font-size:map-get($size, size13);
+		padding:5px; 
+	}
+
+.form-control-consulta{
+	font-size: map-get($size, size3);
+	width: 100%;
+
+}
+
+.btn-color{
+	color:map-get($estilos, color1);
+		font-weight: 500;
+
+}
+
+
+iframe{
+padding:  20px;
+}
+
+
+
+
+
+
+@media only screen and (min-width: 991px){
+
+
+.form-label{
+		font-family: $fontMain;
+		font-size:map-get($size, size1);
+	
+	}
+
+.content{
+	background-color:map-get($estilos, color3);
+}
+
+iframe{
+	padding-top: 60px;
+}
+
+legend{
+	font-size:map-get($size, size13);
+	align-items: center;
+}
+
+}
+

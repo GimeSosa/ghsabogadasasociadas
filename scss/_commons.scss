@@ -1,0 +1,241 @@
+$estilos:(
+	color1: #090707,
+	color2: #3E3B3A,
+	color3: #DDD8D7,
+	color4: #3B3F62,
+
+);
+
+
+$size:(
+	size1: 1rem,
+	size13: 1.3rem,
+	size15:1.5rem,
+	size2: 1.8rem,
+	size:2rem,
+	size3: 4rem,
+	size4: 6rem,
+	size5:8rem,
+)
+;
+
+
+$fontMain: 'Montserrat', sans seriff;
+
+.primerTit{
+		font-family: $fontMain;
+	font-weight: 500;
+	color: map-get($estilos, color1);
+	text-decoration: none;
+	
+}
+
+@mixin tituloImp{
+	color: map-get($estilos, color1);
+	size: size 2;
+	margin-left: none;
+	margin-right: 100vh;
+	margin-bottom: 30vh;
+	font-weight: 500;
+	line-height: 4rem;
+
+
+}
+
+
+
+
+.fontType{
+	text-align:center;
+	font-family: $fontMain;
+	font-weight: 300;
+	font-size: map-get($size, size2);
+	color: map-get($estilos, color2);
+	padding-left:30px;
+
+
+}
+
+
+// breakpoints del index
+
+@media only screen and (min-width: 280px) and (max-width: 768px){
+*{padding: 0;
+	margin: 0;
+	font-size: 62.5%;
+	overflow-x: hidden;
+
+}
+
+
+.primerTit{
+		font-family: $fontMain;
+	font-weight: 500;
+	color:white;
+	text-decoration: none;
+	
+
+}
+
+  .parrafoSmall{
+	background-color:map-get($estilos, color1);
+	color: white;
+	font-size: map-get($size, size2);
+	text-align: center;
+}
+
+main{
+	background-color:white;
+	margin-top: 23px;
+
+
+}
+
+ h2{
+	text-align: center;
+	font-size: map-get($size, size2);
+
+
+
+}
+ .carousel-item{
+ 	height: auto;
+ }
+
+.navbar-toggler{
+	background-color: map-get($estilos, color3);
+	padding:auto;
+	margin: 5px;
+}
+ .fontType-areas, h3{
+	align-items: center;
+  display: flex;
+  justify-content: center;
+  padding:20px;
+  font-size: map-get($size, size15);
+}
+
+footer {
+	h3{
+		font-size: map-get($size, size13);
+
+	}
+}
+
+ .claseFooter{
+	 p{
+		font-size: map-get($size, size13);
+
+}
+}
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 991px){
+
+*{padding: 0;
+	margin: 0;
+	font-size: 62.5%;
+	
+}
+
+.contenido{
+	overflow-x: hidden;
+}
+
+.primerTit{
+		font-family: $fontMain;
+	font-weight: 500;
+	color:white;
+	text-decoration: none;
+	
+}
+
+.fontType-areas, h3{
+	font-size: map-get($size, size2);
+	align-items: center;
+  display: flex;
+  justify-content: center;
+  padding:20px;
+  
+}
+
+.fontType-car{	
+font-size: map-get($size, size2);
+}
+
+
+ .claseFooter{
+	 p{
+		font-size: map-get($size, size15);
+
+}
+}
+
+footer {
+	h3{
+		font-size: map-get($size, size15);
+
+	}
+}
+
+
+div {
+	.areasdeTrabajo{
+	padding-top: none;
+}
+
+
+}
+
+
+}
+
+@media only screen and (min-width: 992px){
+
+
+*{padding: 0;
+	margin: 0;
+	
+}
+
+
+.contenido{
+	overflow-x: hidden;
+	font-size: 62.5%;
+}
+
+
+footer {
+	h3{
+		font-size: map-get($size, size13);
+
+	}
+}
+
+.tituloImp{
+	padding-bottom: 20px;
+}
+
+article{
+
+	img{
+		display:flex;
+		justify-content:space-around;
+
+	}
+}
+.imgLg{
+	padding-bottom:20px;
+}
+
+
+
+
+.fontType-areas, h3{
+	font-size: map-get($size, size13); 
+
+
+
+}}
+

@@ -1,0 +1,111 @@
+@import "_commons";
+@import "_nav";
+
+/*estilos y breakpoints de profesionales.html
+ */
+
+a{
+	text-decoration: none;
+}
+
+.fotoAbog{
+
+	padding: 90px;
+
+}
+
+h2{
+	padding: 20px;
+}
+
+
+@media only screen and (min-width: 280px) and (max-width: 767px){
+
+.fotoAbog{
+	padding:60px;
+}
+
+
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 991px){
+	
+.fotoAbog{
+	display: flex;     
+   flex-direction: column; 
+   justify-content: space-evenly;
+   padding:50px;
+
+}
+
+.descriProf{
+	display: flex;     
+   flex-direction: column; 
+   justify-content: space-evenly;
+   padding:40px;
+   padding-top:100px;
+   line-height: 30px;
+
+}
+
+}
+@media only screen and (min-width: 992px){
+
+#staff{
+	padding: 0;
+	margin: 0;
+	font-size: 62.5%;
+	overflow-x: hidden;
+
+ 	padding-right:20px;
+ 	padding-left: 20px;
+ } 
+
+.fotoAbog{
+	display: flex;     
+   flex-direction: column; 
+   justify-content: space-evenly;
+   padding:50px;
+   margin: 5px;
+
+}
+
+.descriProf{
+	display: flex;   
+	font-family: $fontMain;  
+   flex-direction: column; 
+   justify-content: space-evenly;
+   padding:40px;
+   padding-top:40px;
+   line-height:40px;
+   font-size: 1rem;
+
+}
+
+
+
+
+#staff{
+
+	background-color: map-get($estilos, color3);
+}
+
+ .claseFooter{
+	
+		font-size: map-get($size, size13);
+	}
+
+
+.orden-abog3{
+   order: -1;
+}
+.orden-abog1{
+   order: -3;
+}
+.orden-abog2{
+   order: -2;
+}
+
+
+}

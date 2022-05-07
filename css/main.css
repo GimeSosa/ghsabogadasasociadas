@@ -1,0 +1,1945 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500&display=swap");
+*body {
+  padding: 0;
+  margin: 0;
+  font-size: 62.5%;
+  box-sizing: border-box; }
+
+.primerTit {
+  font-family: "Montserrat", sans seriff;
+  font-weight: 500;
+  color: #090707;
+  text-decoration: none; }
+
+.fontType, .fontType-areas, .fontType-car {
+  text-align: center;
+  font-family: "Montserrat", sans seriff;
+  font-weight: 300;
+  font-size: 1.8rem;
+  color: #3E3B3A;
+  padding-left: 30px; }
+
+@media only screen and (min-width: 280px) and (max-width: 768px) {
+  * {
+    padding: 0;
+    margin: 0;
+    font-size: 62.5%;
+    overflow-x: hidden; }
+  .primerTit {
+    font-family: "Montserrat", sans seriff;
+    font-weight: 500;
+    color: white;
+    text-decoration: none; }
+  .parrafoSmall {
+    background-color: #090707;
+    color: white;
+    font-size: 1.8rem;
+    text-align: center; }
+  main {
+    background-color: white;
+    margin-top: 23px; }
+  h2 {
+    text-align: center;
+    font-size: 1.8rem; }
+  .carousel-item {
+    height: auto; }
+  .navbar-toggler {
+    background-color: #DDD8D7;
+    padding: auto;
+    margin: 5px; }
+  .fontType-areas, h3 {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    font-size: 1.5rem; }
+  footer h3 {
+    font-size: 1.3rem; }
+  .claseFooter p {
+    font-size: 1.3rem; } }
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  * {
+    padding: 0;
+    margin: 0;
+    font-size: 62.5%; }
+  .contenido {
+    overflow-x: hidden; }
+  .primerTit {
+    font-family: "Montserrat", sans seriff;
+    font-weight: 500;
+    color: white;
+    text-decoration: none; }
+  .fontType-areas, h3 {
+    font-size: 1.8rem;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding: 20px; }
+  .fontType-car {
+    font-size: 1.8rem; }
+  .claseFooter p {
+    font-size: 1.5rem; }
+  footer h3 {
+    font-size: 1.5rem; }
+  div .areasdeTrabajo {
+    padding-top: none; } }
+
+@media only screen and (min-width: 992px) {
+  * {
+    padding: 0;
+    margin: 0; }
+  .contenido {
+    overflow-x: hidden;
+    font-size: 62.5%; }
+  footer h3 {
+    font-size: 1.3rem; }
+  .tituloImp {
+    padding-bottom: 20px; }
+  article img {
+    display: flex;
+    justify-content: space-around; }
+  .imgLg {
+    padding-bottom: 20px; }
+  .fontType-areas, h3 {
+    font-size: 1.3rem; } }
+
+.primerTit {
+  font-family: "Montserrat", sans seriff;
+  font-weight: 500;
+  color: #090707;
+  text-decoration: none; }
+
+.fontType, .fontType-areas, .fontType-car {
+  text-align: center;
+  font-family: "Montserrat", sans seriff;
+  font-weight: 300;
+  font-size: 1.8rem;
+  color: #3E3B3A;
+  padding-left: 30px; }
+
+@media only screen and (min-width: 280px) and (max-width: 768px) {
+  * {
+    padding: 0;
+    margin: 0;
+    font-size: 62.5%;
+    overflow-x: hidden; }
+  .primerTit {
+    font-family: "Montserrat", sans seriff;
+    font-weight: 500;
+    color: white;
+    text-decoration: none; }
+  .parrafoSmall {
+    background-color: #090707;
+    color: white;
+    font-size: 1.8rem;
+    text-align: center; }
+  main {
+    background-color: white;
+    margin-top: 23px; }
+  h2 {
+    text-align: center;
+    font-size: 1.8rem; }
+  .carousel-item {
+    height: auto; }
+  .navbar-toggler {
+    background-color: #DDD8D7;
+    padding: auto;
+    margin: 5px; }
+  .fontType-areas, h3 {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    font-size: 1.5rem; }
+  footer h3 {
+    font-size: 1.3rem; }
+  .claseFooter p {
+    font-size: 1.3rem; } }
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  * {
+    padding: 0;
+    margin: 0;
+    font-size: 62.5%; }
+  .contenido {
+    overflow-x: hidden; }
+  .primerTit {
+    font-family: "Montserrat", sans seriff;
+    font-weight: 500;
+    color: white;
+    text-decoration: none; }
+  .fontType-areas, h3 {
+    font-size: 1.8rem;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding: 20px; }
+  .fontType-car {
+    font-size: 1.8rem; }
+  .claseFooter p {
+    font-size: 1.5rem; }
+  footer h3 {
+    font-size: 1.5rem; }
+  div .areasdeTrabajo {
+    padding-top: none; } }
+
+@media only screen and (min-width: 992px) {
+  * {
+    padding: 0;
+    margin: 0; }
+  .contenido {
+    overflow-x: hidden;
+    font-size: 62.5%; }
+  footer h3 {
+    font-size: 1.3rem; }
+  .tituloImp {
+    padding-bottom: 20px; }
+  article img {
+    display: flex;
+    justify-content: space-around; }
+  .imgLg {
+    padding-bottom: 20px; }
+  .fontType-areas, h3 {
+    font-size: 1.3rem; } }
+
+.navbar {
+  margin: 5px; }
+
+.nav-color {
+  color: #090707;
+  text-decoration: none;
+  font-weight: 500;
+  margin: 20px;
+  padding: 15px; }
+  .nav-color:hover {
+    color: #3E3B3A;
+    background-color: #DDD8D7;
+    text-decoration: none;
+    border-radius: 5px; }
+
+@media only screen and (min-width: 280px) and (max-width: 370px) {
+  h1 {
+    font-size: 1.4rem;
+    color: white; }
+  .navbar-toggler {
+    padding-bottom: 1px;
+    padding-top: 1px; } }
+
+@media only screen and (min-width: 280px) and (max-width: 767px) {
+  header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #3E3B3A;
+    font-size: 0.5rem;
+    color: white; }
+  .navbar-toggler {
+    background-color: #DDD8D7;
+    padding: auto;
+    margin: 5px; } }
+
+a h1 {
+  color: white;
+  text-decoration: none; }
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #3E3B3A;
+    color: white;
+    font-size: 0.5rem; }
+  .navbar-toggler {
+    background-color: #DDD8D7;
+    padding: auto;
+    margin: 5px; }
+  a h1 {
+    color: white;
+    text-decoration: none; } }
+
+@media only screen and (min-width: 992px) {
+  a h1 {
+    color: #090707;
+    text-decoration: none; } }
+
+.primerTit {
+  font-family: "Montserrat", sans seriff;
+  font-weight: 500;
+  color: #090707;
+  text-decoration: none; }
+
+.fontType, .fontType-areas, .fontType-car {
+  text-align: center;
+  font-family: "Montserrat", sans seriff;
+  font-weight: 300;
+  font-size: 1.8rem;
+  color: #3E3B3A;
+  padding-left: 30px; }
+
+@media only screen and (min-width: 280px) and (max-width: 768px) {
+  * {
+    padding: 0;
+    margin: 0;
+    font-size: 62.5%;
+    overflow-x: hidden; }
+  .primerTit {
+    font-family: "Montserrat", sans seriff;
+    font-weight: 500;
+    color: white;
+    text-decoration: none; }
+  .parrafoSmall {
+    background-color: #090707;
+    color: white;
+    font-size: 1.8rem;
+    text-align: center; }
+  main {
+    background-color: white;
+    margin-top: 23px; }
+  h2 {
+    text-align: center;
+    font-size: 1.8rem; }
+  .carousel-item {
+    height: auto; }
+  .navbar-toggler {
+    background-color: #DDD8D7;
+    padding: auto;
+    margin: 5px; }
+  .fontType-areas, h3 {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    font-size: 1.5rem; }
+  footer h3 {
+    font-size: 1.3rem; }
+  .claseFooter p {
+    font-size: 1.3rem; } }
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  * {
+    padding: 0;
+    margin: 0;
+    font-size: 62.5%; }
+  .contenido {
+    overflow-x: hidden; }
+  .primerTit {
+    font-family: "Montserrat", sans seriff;
+    font-weight: 500;
+    color: white;
+    text-decoration: none; }
+  .fontType-areas, h3 {
+    font-size: 1.8rem;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding: 20px; }
+  .fontType-car {
+    font-size: 1.8rem; }
+  .claseFooter p {
+    font-size: 1.5rem; }
+  footer h3 {
+    font-size: 1.5rem; }
+  div .areasdeTrabajo {
+    padding-top: none; } }
+
+@media only screen and (min-width: 992px) {
+  * {
+    padding: 0;
+    margin: 0; }
+  .contenido {
+    overflow-x: hidden;
+    font-size: 62.5%; }
+  footer h3 {
+    font-size: 1.3rem; }
+  .tituloImp {
+    padding-bottom: 20px; }
+  article img {
+    display: flex;
+    justify-content: space-around; }
+  .imgLg {
+    padding-bottom: 20px; }
+  .fontType-areas, h3 {
+    font-size: 1.3rem; } }
+
+.primerTit {
+  font-family: "Montserrat", sans seriff;
+  font-weight: 500;
+  color: #090707;
+  text-decoration: none; }
+
+.fontType, .fontType-areas, .fontType-car {
+  text-align: center;
+  font-family: "Montserrat", sans seriff;
+  font-weight: 300;
+  font-size: 1.8rem;
+  color: #3E3B3A;
+  padding-left: 30px; }
+
+@media only screen and (min-width: 280px) and (max-width: 768px) {
+  * {
+    padding: 0;
+    margin: 0;
+    font-size: 62.5%;
+    overflow-x: hidden; }
+  .primerTit {
+    font-family: "Montserrat", sans seriff;
+    font-weight: 500;
+    color: white;
+    text-decoration: none; }
+  .parrafoSmall {
+    background-color: #090707;
+    color: white;
+    font-size: 1.8rem;
+    text-align: center; }
+  main {
+    background-color: white;
+    margin-top: 23px; }
+  h2 {
+    text-align: center;
+    font-size: 1.8rem; }
+  .carousel-item {
+    height: auto; }
+  .navbar-toggler {
+    background-color: #DDD8D7;
+    padding: auto;
+    margin: 5px; }
+  .fontType-areas, h3 {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    font-size: 1.5rem; }
+  footer h3 {
+    font-size: 1.3rem; }
+  .claseFooter p {
+    font-size: 1.3rem; } }
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  * {
+    padding: 0;
+    margin: 0;
+    font-size: 62.5%; }
+  .contenido {
+    overflow-x: hidden; }
+  .primerTit {
+    font-family: "Montserrat", sans seriff;
+    font-weight: 500;
+    color: white;
+    text-decoration: none; }
+  .fontType-areas, h3 {
+    font-size: 1.8rem;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding: 20px; }
+  .fontType-car {
+    font-size: 1.8rem; }
+  .claseFooter p {
+    font-size: 1.5rem; }
+  footer h3 {
+    font-size: 1.5rem; }
+  div .areasdeTrabajo {
+    padding-top: none; } }
+
+@media only screen and (min-width: 992px) {
+  * {
+    padding: 0;
+    margin: 0; }
+  .contenido {
+    overflow-x: hidden;
+    font-size: 62.5%; }
+  footer h3 {
+    font-size: 1.3rem; }
+  .tituloImp {
+    padding-bottom: 20px; }
+  article img {
+    display: flex;
+    justify-content: space-around; }
+  .imgLg {
+    padding-bottom: 20px; }
+  .fontType-areas, h3 {
+    font-size: 1.3rem; } }
+
+.navbar {
+  margin: 5px; }
+
+.nav-color {
+  color: #090707;
+  text-decoration: none;
+  font-weight: 500;
+  margin: 20px;
+  padding: 15px; }
+  .nav-color:hover {
+    color: #3E3B3A;
+    background-color: #DDD8D7;
+    text-decoration: none;
+    border-radius: 5px; }
+
+@media only screen and (min-width: 280px) and (max-width: 370px) {
+  h1 {
+    font-size: 1.4rem;
+    color: white; }
+  .navbar-toggler {
+    padding-bottom: 1px;
+    padding-top: 1px; } }
+
+@media only screen and (min-width: 280px) and (max-width: 767px) {
+  header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #3E3B3A;
+    font-size: 0.5rem;
+    color: white; }
+  .navbar-toggler {
+    background-color: #DDD8D7;
+    padding: auto;
+    margin: 5px; } }
+
+a h1 {
+  color: white;
+  text-decoration: none; }
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #3E3B3A;
+    color: white;
+    font-size: 0.5rem; }
+  .navbar-toggler {
+    background-color: #DDD8D7;
+    padding: auto;
+    margin: 5px; }
+  a h1 {
+    color: white;
+    text-decoration: none; } }
+
+@media only screen and (min-width: 992px) {
+  a h1 {
+    color: #090707;
+    text-decoration: none; } }
+
+.fontType, .fontType-areas, .fontType-car {
+  text-align: center;
+  font-family: "Montserrat", sans seriff;
+  font-weight: 300;
+  font-size: 1.8rem;
+  color: #3E3B3A;
+  padding-left: 30px; }
+
+.fontType-areas {
+  font-weight: 300;
+  text-shadow: 1px 1px 2px #787878;
+  padding-top: 30px;
+  padding-left: 20px;
+  font-size: 1rem; }
+
+main {
+  padding: 10px;
+  background-color: #3E3B3A; }
+
+.carousel-item {
+  height: 75vh; }
+
+.fontType-car {
+  font-weight: 500;
+  text-shadow: 3px 2px 2px #f0f0f0; }
+
+article {
+  background-color: #DDD8D7;
+  padding-top: 20px; }
+
+.backColor {
+  background-color: white; }
+
+.tituloImp {
+  color: #090707;
+  size: size 2;
+  margin-left: none;
+  margin-right: 100vh;
+  margin-bottom: 30vh;
+  font-weight: 500;
+  line-height: 4rem; }
+
+.primerTit {
+  font-family: "Montserrat", sans seriff;
+  font-weight: 500;
+  color: #090707;
+  text-decoration: none; }
+
+.fontType, .fontType-areas, .fontType-car {
+  text-align: center;
+  font-family: "Montserrat", sans seriff;
+  font-weight: 300;
+  font-size: 1.8rem;
+  color: #3E3B3A;
+  padding-left: 30px; }
+
+@media only screen and (min-width: 280px) and (max-width: 768px) {
+  * {
+    padding: 0;
+    margin: 0;
+    font-size: 62.5%;
+    overflow-x: hidden; }
+  .primerTit {
+    font-family: "Montserrat", sans seriff;
+    font-weight: 500;
+    color: white;
+    text-decoration: none; }
+  .parrafoSmall {
+    background-color: #090707;
+    color: white;
+    font-size: 1.8rem;
+    text-align: center; }
+  main {
+    background-color: white;
+    margin-top: 23px; }
+  h2 {
+    text-align: center;
+    font-size: 1.8rem; }
+  .carousel-item {
+    height: auto; }
+  .navbar-toggler {
+    background-color: #DDD8D7;
+    padding: auto;
+    margin: 5px; }
+  .fontType-areas, h3 {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    font-size: 1.5rem; }
+  footer h3 {
+    font-size: 1.3rem; }
+  .claseFooter p {
+    font-size: 1.3rem; } }
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  * {
+    padding: 0;
+    margin: 0;
+    font-size: 62.5%; }
+  .contenido {
+    overflow-x: hidden; }
+  .primerTit {
+    font-family: "Montserrat", sans seriff;
+    font-weight: 500;
+    color: white;
+    text-decoration: none; }
+  .fontType-areas, h3 {
+    font-size: 1.8rem;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding: 20px; }
+  .fontType-car {
+    font-size: 1.8rem; }
+  .claseFooter p {
+    font-size: 1.5rem; }
+  footer h3 {
+    font-size: 1.5rem; }
+  div .areasdeTrabajo {
+    padding-top: none; } }
+
+@media only screen and (min-width: 992px) {
+  * {
+    padding: 0;
+    margin: 0; }
+  .contenido {
+    overflow-x: hidden;
+    font-size: 62.5%; }
+  footer h3 {
+    font-size: 1.3rem; }
+  .tituloImp {
+    padding-bottom: 20px; }
+  article img {
+    display: flex;
+    justify-content: space-around; }
+  .imgLg {
+    padding-bottom: 20px; }
+  .fontType-areas, h3 {
+    font-size: 1.3rem; } }
+
+footer {
+  color: #DDD8D7;
+  background-color: #3E3B3A;
+  text-align: center;
+  font-size: 1rem;
+  padding-top: 1.8rem; }
+  footer a img {
+    width: 2rem;
+    margin: 15px; }
+  footer p {
+    font-size: 1rem;
+    padding: 0px;
+    margin: 0px; }
+  footer .claseFooter article {
+    background-color: #3E3B3A; }
+  footer h3 {
+    text-decoration: underline; }
+
+.primerTit {
+  font-family: "Montserrat", sans seriff;
+  font-weight: 500;
+  color: #090707;
+  text-decoration: none; }
+
+.fontType, .fontType-areas, .fontType-car {
+  text-align: center;
+  font-family: "Montserrat", sans seriff;
+  font-weight: 300;
+  font-size: 1.8rem;
+  color: #3E3B3A;
+  padding-left: 30px; }
+
+@media only screen and (min-width: 280px) and (max-width: 768px) {
+  * {
+    padding: 0;
+    margin: 0;
+    font-size: 62.5%;
+    overflow-x: hidden; }
+  .primerTit {
+    font-family: "Montserrat", sans seriff;
+    font-weight: 500;
+    color: white;
+    text-decoration: none; }
+  .parrafoSmall {
+    background-color: #090707;
+    color: white;
+    font-size: 1.8rem;
+    text-align: center; }
+  main {
+    background-color: white;
+    margin-top: 23px; }
+  h2 {
+    text-align: center;
+    font-size: 1.8rem; }
+  .carousel-item {
+    height: auto; }
+  .navbar-toggler {
+    background-color: #DDD8D7;
+    padding: auto;
+    margin: 5px; }
+  .fontType-areas, h3 {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    font-size: 1.5rem; }
+  footer h3 {
+    font-size: 1.3rem; }
+  .claseFooter p {
+    font-size: 1.3rem; } }
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  * {
+    padding: 0;
+    margin: 0;
+    font-size: 62.5%; }
+  .contenido {
+    overflow-x: hidden; }
+  .primerTit {
+    font-family: "Montserrat", sans seriff;
+    font-weight: 500;
+    color: white;
+    text-decoration: none; }
+  .fontType-areas, h3 {
+    font-size: 1.8rem;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding: 20px; }
+  .fontType-car {
+    font-size: 1.8rem; }
+  .claseFooter p {
+    font-size: 1.5rem; }
+  footer h3 {
+    font-size: 1.5rem; }
+  div .areasdeTrabajo {
+    padding-top: none; } }
+
+@media only screen and (min-width: 992px) {
+  * {
+    padding: 0;
+    margin: 0; }
+  .contenido {
+    overflow-x: hidden;
+    font-size: 62.5%; }
+  footer h3 {
+    font-size: 1.3rem; }
+  .tituloImp {
+    padding-bottom: 20px; }
+  article img {
+    display: flex;
+    justify-content: space-around; }
+  .imgLg {
+    padding-bottom: 20px; }
+  .fontType-areas, h3 {
+    font-size: 1.3rem; } }
+
+.primerTit {
+  font-family: "Montserrat", sans seriff;
+  font-weight: 500;
+  color: #090707;
+  text-decoration: none; }
+
+.fontType, .fontType-areas, .fontType-car {
+  text-align: center;
+  font-family: "Montserrat", sans seriff;
+  font-weight: 300;
+  font-size: 1.8rem;
+  color: #3E3B3A;
+  padding-left: 30px; }
+
+@media only screen and (min-width: 280px) and (max-width: 768px) {
+  * {
+    padding: 0;
+    margin: 0;
+    font-size: 62.5%;
+    overflow-x: hidden; }
+  .primerTit {
+    font-family: "Montserrat", sans seriff;
+    font-weight: 500;
+    color: white;
+    text-decoration: none; }
+  .parrafoSmall {
+    background-color: #090707;
+    color: white;
+    font-size: 1.8rem;
+    text-align: center; }
+  main {
+    background-color: white;
+    margin-top: 23px; }
+  h2 {
+    text-align: center;
+    font-size: 1.8rem; }
+  .carousel-item {
+    height: auto; }
+  .navbar-toggler {
+    background-color: #DDD8D7;
+    padding: auto;
+    margin: 5px; }
+  .fontType-areas, h3 {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    font-size: 1.5rem; }
+  footer h3 {
+    font-size: 1.3rem; }
+  .claseFooter p {
+    font-size: 1.3rem; } }
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  * {
+    padding: 0;
+    margin: 0;
+    font-size: 62.5%; }
+  .contenido {
+    overflow-x: hidden; }
+  .primerTit {
+    font-family: "Montserrat", sans seriff;
+    font-weight: 500;
+    color: white;
+    text-decoration: none; }
+  .fontType-areas, h3 {
+    font-size: 1.8rem;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding: 20px; }
+  .fontType-car {
+    font-size: 1.8rem; }
+  .claseFooter p {
+    font-size: 1.5rem; }
+  footer h3 {
+    font-size: 1.5rem; }
+  div .areasdeTrabajo {
+    padding-top: none; } }
+
+@media only screen and (min-width: 992px) {
+  * {
+    padding: 0;
+    margin: 0; }
+  .contenido {
+    overflow-x: hidden;
+    font-size: 62.5%; }
+  footer h3 {
+    font-size: 1.3rem; }
+  .tituloImp {
+    padding-bottom: 20px; }
+  article img {
+    display: flex;
+    justify-content: space-around; }
+  .imgLg {
+    padding-bottom: 20px; }
+  .fontType-areas, h3 {
+    font-size: 1.3rem; } }
+
+.navbar {
+  margin: 5px; }
+
+.nav-color {
+  color: #090707;
+  text-decoration: none;
+  font-weight: 500;
+  margin: 20px;
+  padding: 15px; }
+  .nav-color:hover {
+    color: #3E3B3A;
+    background-color: #DDD8D7;
+    text-decoration: none;
+    border-radius: 5px; }
+
+@media only screen and (min-width: 280px) and (max-width: 370px) {
+  h1 {
+    font-size: 1.4rem;
+    color: white; }
+  .navbar-toggler {
+    padding-bottom: 1px;
+    padding-top: 1px; } }
+
+@media only screen and (min-width: 280px) and (max-width: 767px) {
+  header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #3E3B3A;
+    font-size: 0.5rem;
+    color: white; }
+  .navbar-toggler {
+    background-color: #DDD8D7;
+    padding: auto;
+    margin: 5px; } }
+
+a h1 {
+  color: white;
+  text-decoration: none; }
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #3E3B3A;
+    color: white;
+    font-size: 0.5rem; }
+  .navbar-toggler {
+    background-color: #DDD8D7;
+    padding: auto;
+    margin: 5px; }
+  a h1 {
+    color: white;
+    text-decoration: none; } }
+
+@media only screen and (min-width: 992px) {
+  a h1 {
+    color: #090707;
+    text-decoration: none; } }
+
+/*estilos y breakpoints de profesionales.html
+ */
+a {
+  text-decoration: none; }
+
+.fotoAbog {
+  padding: 90px; }
+
+h2 {
+  padding: 20px; }
+
+@media only screen and (min-width: 280px) and (max-width: 767px) {
+  .fotoAbog {
+    padding: 60px; } }
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .fotoAbog {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 50px; }
+  .descriProf {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 40px;
+    padding-top: 100px;
+    line-height: 30px; } }
+
+@media only screen and (min-width: 992px) {
+  #staff {
+    padding: 0;
+    margin: 0;
+    font-size: 62.5%;
+    overflow-x: hidden;
+    padding-right: 20px;
+    padding-left: 20px; }
+  .fotoAbog {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 50px;
+    margin: 5px; }
+  .descriProf {
+    display: flex;
+    font-family: "Montserrat", sans seriff;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 40px;
+    padding-top: 40px;
+    line-height: 40px;
+    font-size: 1rem; }
+  #staff {
+    background-color: #DDD8D7; }
+  .claseFooter {
+    font-size: 1.3rem; }
+  .orden-abog3 {
+    order: -1; }
+  .orden-abog1 {
+    order: -3; }
+  .orden-abog2 {
+    order: -2; } }
+
+.primerTit {
+  font-family: "Montserrat", sans seriff;
+  font-weight: 500;
+  color: #090707;
+  text-decoration: none; }
+
+.fontType, .fontType-areas, .fontType-car {
+  text-align: center;
+  font-family: "Montserrat", sans seriff;
+  font-weight: 300;
+  font-size: 1.8rem;
+  color: #3E3B3A;
+  padding-left: 30px; }
+
+@media only screen and (min-width: 280px) and (max-width: 768px) {
+  * {
+    padding: 0;
+    margin: 0;
+    font-size: 62.5%;
+    overflow-x: hidden; }
+  .primerTit {
+    font-family: "Montserrat", sans seriff;
+    font-weight: 500;
+    color: white;
+    text-decoration: none; }
+  .parrafoSmall {
+    background-color: #090707;
+    color: white;
+    font-size: 1.8rem;
+    text-align: center; }
+  main {
+    background-color: white;
+    margin-top: 23px; }
+  h2 {
+    text-align: center;
+    font-size: 1.8rem; }
+  .carousel-item {
+    height: auto; }
+  .navbar-toggler {
+    background-color: #DDD8D7;
+    padding: auto;
+    margin: 5px; }
+  .fontType-areas, h3 {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    font-size: 1.5rem; }
+  footer h3 {
+    font-size: 1.3rem; }
+  .claseFooter p {
+    font-size: 1.3rem; } }
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  * {
+    padding: 0;
+    margin: 0;
+    font-size: 62.5%; }
+  .contenido {
+    overflow-x: hidden; }
+  .primerTit {
+    font-family: "Montserrat", sans seriff;
+    font-weight: 500;
+    color: white;
+    text-decoration: none; }
+  .fontType-areas, h3 {
+    font-size: 1.8rem;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding: 20px; }
+  .fontType-car {
+    font-size: 1.8rem; }
+  .claseFooter p {
+    font-size: 1.5rem; }
+  footer h3 {
+    font-size: 1.5rem; }
+  div .areasdeTrabajo {
+    padding-top: none; } }
+
+@media only screen and (min-width: 992px) {
+  * {
+    padding: 0;
+    margin: 0; }
+  .contenido {
+    overflow-x: hidden;
+    font-size: 62.5%; }
+  footer h3 {
+    font-size: 1.3rem; }
+  .tituloImp {
+    padding-bottom: 20px; }
+  article img {
+    display: flex;
+    justify-content: space-around; }
+  .imgLg {
+    padding-bottom: 20px; }
+  .fontType-areas, h3 {
+    font-size: 1.3rem; } }
+
+.navbar {
+  margin: 5px; }
+
+.nav-color {
+  color: #090707;
+  text-decoration: none;
+  font-weight: 500;
+  margin: 20px;
+  padding: 15px; }
+  .nav-color:hover {
+    color: #3E3B3A;
+    background-color: #DDD8D7;
+    text-decoration: none;
+    border-radius: 5px; }
+
+@media only screen and (min-width: 280px) and (max-width: 370px) {
+  h1 {
+    font-size: 1.4rem;
+    color: white; }
+  .navbar-toggler {
+    padding-bottom: 1px;
+    padding-top: 1px; } }
+
+@media only screen and (min-width: 280px) and (max-width: 767px) {
+  header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #3E3B3A;
+    font-size: 0.5rem;
+    color: white; }
+  .navbar-toggler {
+    background-color: #DDD8D7;
+    padding: auto;
+    margin: 5px; } }
+
+a h1 {
+  color: white;
+  text-decoration: none; }
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #3E3B3A;
+    color: white;
+    font-size: 0.5rem; }
+  .navbar-toggler {
+    background-color: #DDD8D7;
+    padding: auto;
+    margin: 5px; }
+  a h1 {
+    color: white;
+    text-decoration: none; } }
+
+@media only screen and (min-width: 992px) {
+  a h1 {
+    color: #090707;
+    text-decoration: none; } }
+
+.primerTit {
+  font-family: "Montserrat", sans seriff;
+  font-weight: 500;
+  color: #090707;
+  text-decoration: none; }
+
+.fontType, .fontType-areas, .fontType-car {
+  text-align: center;
+  font-family: "Montserrat", sans seriff;
+  font-weight: 300;
+  font-size: 1.8rem;
+  color: #3E3B3A;
+  padding-left: 30px; }
+
+@media only screen and (min-width: 280px) and (max-width: 768px) {
+  * {
+    padding: 0;
+    margin: 0;
+    font-size: 62.5%;
+    overflow-x: hidden; }
+  .primerTit {
+    font-family: "Montserrat", sans seriff;
+    font-weight: 500;
+    color: white;
+    text-decoration: none; }
+  .parrafoSmall {
+    background-color: #090707;
+    color: white;
+    font-size: 1.8rem;
+    text-align: center; }
+  main {
+    background-color: white;
+    margin-top: 23px; }
+  h2 {
+    text-align: center;
+    font-size: 1.8rem; }
+  .carousel-item {
+    height: auto; }
+  .navbar-toggler {
+    background-color: #DDD8D7;
+    padding: auto;
+    margin: 5px; }
+  .fontType-areas, h3 {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    font-size: 1.5rem; }
+  footer h3 {
+    font-size: 1.3rem; }
+  .claseFooter p {
+    font-size: 1.3rem; } }
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  * {
+    padding: 0;
+    margin: 0;
+    font-size: 62.5%; }
+  .contenido {
+    overflow-x: hidden; }
+  .primerTit {
+    font-family: "Montserrat", sans seriff;
+    font-weight: 500;
+    color: white;
+    text-decoration: none; }
+  .fontType-areas, h3 {
+    font-size: 1.8rem;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding: 20px; }
+  .fontType-car {
+    font-size: 1.8rem; }
+  .claseFooter p {
+    font-size: 1.5rem; }
+  footer h3 {
+    font-size: 1.5rem; }
+  div .areasdeTrabajo {
+    padding-top: none; } }
+
+@media only screen and (min-width: 992px) {
+  * {
+    padding: 0;
+    margin: 0; }
+  .contenido {
+    overflow-x: hidden;
+    font-size: 62.5%; }
+  footer h3 {
+    font-size: 1.3rem; }
+  .tituloImp {
+    padding-bottom: 20px; }
+  article img {
+    display: flex;
+    justify-content: space-around; }
+  .imgLg {
+    padding-bottom: 20px; }
+  .fontType-areas, h3 {
+    font-size: 1.3rem; } }
+
+/*estilos y breakpoints de novedades.html*/
+.body {
+  overflow-x: hidden; }
+
+.btn-color {
+  background-color: #DDD8D7;
+  color: #3E3B3A;
+  padding: 5px;
+  border: solid 2px grey; }
+
+.fondoCard {
+  background-color: #090707; }
+
+.card {
+  position: unset;
+  padding: 20px;
+  margin: 20px;
+  border: solid 2px grey; }
+
+@media only screen and (min-width: 280px) and (max-width: 575px) {
+  .infoJudicial {
+    font-size: 1.8rem;
+    padding: 10px; } }
+
+@media only screen and (min-width: 576px) and (max-width: 991px) {
+  .infoJudicial {
+    font-size: 2rem;
+    padding: 10px; } }
+
+@media only screen and (min-width: 991px) {
+  .infoJudicial {
+    font-size: 1rem;
+    padding: 15px;
+    margin: 5px;
+    text-align: justify; } }
+
+.primerTit {
+  font-family: "Montserrat", sans seriff;
+  font-weight: 500;
+  color: #090707;
+  text-decoration: none; }
+
+.fontType, .fontType-areas, .fontType-car {
+  text-align: center;
+  font-family: "Montserrat", sans seriff;
+  font-weight: 300;
+  font-size: 1.8rem;
+  color: #3E3B3A;
+  padding-left: 30px; }
+
+@media only screen and (min-width: 280px) and (max-width: 768px) {
+  * {
+    padding: 0;
+    margin: 0;
+    font-size: 62.5%;
+    overflow-x: hidden; }
+  .primerTit {
+    font-family: "Montserrat", sans seriff;
+    font-weight: 500;
+    color: white;
+    text-decoration: none; }
+  .parrafoSmall {
+    background-color: #090707;
+    color: white;
+    font-size: 1.8rem;
+    text-align: center; }
+  main {
+    background-color: white;
+    margin-top: 23px; }
+  h2 {
+    text-align: center;
+    font-size: 1.8rem; }
+  .carousel-item {
+    height: auto; }
+  .navbar-toggler {
+    background-color: #DDD8D7;
+    padding: auto;
+    margin: 5px; }
+  .fontType-areas, h3 {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    font-size: 1.5rem; }
+  footer h3 {
+    font-size: 1.3rem; }
+  .claseFooter p {
+    font-size: 1.3rem; } }
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  * {
+    padding: 0;
+    margin: 0;
+    font-size: 62.5%; }
+  .contenido {
+    overflow-x: hidden; }
+  .primerTit {
+    font-family: "Montserrat", sans seriff;
+    font-weight: 500;
+    color: white;
+    text-decoration: none; }
+  .fontType-areas, h3 {
+    font-size: 1.8rem;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding: 20px; }
+  .fontType-car {
+    font-size: 1.8rem; }
+  .claseFooter p {
+    font-size: 1.5rem; }
+  footer h3 {
+    font-size: 1.5rem; }
+  div .areasdeTrabajo {
+    padding-top: none; } }
+
+@media only screen and (min-width: 992px) {
+  * {
+    padding: 0;
+    margin: 0; }
+  .contenido {
+    overflow-x: hidden;
+    font-size: 62.5%; }
+  footer h3 {
+    font-size: 1.3rem; }
+  .tituloImp {
+    padding-bottom: 20px; }
+  article img {
+    display: flex;
+    justify-content: space-around; }
+  .imgLg {
+    padding-bottom: 20px; }
+  .fontType-areas, h3 {
+    font-size: 1.3rem; } }
+
+.navbar {
+  margin: 5px; }
+
+.nav-color {
+  color: #090707;
+  text-decoration: none;
+  font-weight: 500;
+  margin: 20px;
+  padding: 15px; }
+  .nav-color:hover {
+    color: #3E3B3A;
+    background-color: #DDD8D7;
+    text-decoration: none;
+    border-radius: 5px; }
+
+@media only screen and (min-width: 280px) and (max-width: 370px) {
+  h1 {
+    font-size: 1.4rem;
+    color: white; }
+  .navbar-toggler {
+    padding-bottom: 1px;
+    padding-top: 1px; } }
+
+@media only screen and (min-width: 280px) and (max-width: 767px) {
+  header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #3E3B3A;
+    font-size: 0.5rem;
+    color: white; }
+  .navbar-toggler {
+    background-color: #DDD8D7;
+    padding: auto;
+    margin: 5px; } }
+
+a h1 {
+  color: white;
+  text-decoration: none; }
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #3E3B3A;
+    color: white;
+    font-size: 0.5rem; }
+  .navbar-toggler {
+    background-color: #DDD8D7;
+    padding: auto;
+    margin: 5px; }
+  a h1 {
+    color: white;
+    text-decoration: none; } }
+
+@media only screen and (min-width: 992px) {
+  a h1 {
+    color: #090707;
+    text-decoration: none; } }
+
+.primerTit {
+  font-family: "Montserrat", sans seriff;
+  font-weight: 500;
+  color: #090707;
+  text-decoration: none; }
+
+.fontType, .fontType-areas, .fontType-car {
+  text-align: center;
+  font-family: "Montserrat", sans seriff;
+  font-weight: 300;
+  font-size: 1.8rem;
+  color: #3E3B3A;
+  padding-left: 30px; }
+
+@media only screen and (min-width: 280px) and (max-width: 768px) {
+  * {
+    padding: 0;
+    margin: 0;
+    font-size: 62.5%;
+    overflow-x: hidden; }
+  .primerTit {
+    font-family: "Montserrat", sans seriff;
+    font-weight: 500;
+    color: white;
+    text-decoration: none; }
+  .parrafoSmall {
+    background-color: #090707;
+    color: white;
+    font-size: 1.8rem;
+    text-align: center; }
+  main {
+    background-color: white;
+    margin-top: 23px; }
+  h2 {
+    text-align: center;
+    font-size: 1.8rem; }
+  .carousel-item {
+    height: auto; }
+  .navbar-toggler {
+    background-color: #DDD8D7;
+    padding: auto;
+    margin: 5px; }
+  .fontType-areas, h3 {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    font-size: 1.5rem; }
+  footer h3 {
+    font-size: 1.3rem; }
+  .claseFooter p {
+    font-size: 1.3rem; } }
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  * {
+    padding: 0;
+    margin: 0;
+    font-size: 62.5%; }
+  .contenido {
+    overflow-x: hidden; }
+  .primerTit {
+    font-family: "Montserrat", sans seriff;
+    font-weight: 500;
+    color: white;
+    text-decoration: none; }
+  .fontType-areas, h3 {
+    font-size: 1.8rem;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding: 20px; }
+  .fontType-car {
+    font-size: 1.8rem; }
+  .claseFooter p {
+    font-size: 1.5rem; }
+  footer h3 {
+    font-size: 1.5rem; }
+  div .areasdeTrabajo {
+    padding-top: none; } }
+
+@media only screen and (min-width: 992px) {
+  * {
+    padding: 0;
+    margin: 0; }
+  .contenido {
+    overflow-x: hidden;
+    font-size: 62.5%; }
+  footer h3 {
+    font-size: 1.3rem; }
+  .tituloImp {
+    padding-bottom: 20px; }
+  article img {
+    display: flex;
+    justify-content: space-around; }
+  .imgLg {
+    padding-bottom: 20px; }
+  .fontType-areas, h3 {
+    font-size: 1.3rem; } }
+
+/*estilos y breakpoints de equipo.html*/
+.contenido {
+  overflow-x: hidden; }
+
+@media only screen and (min-width: 280px) and (max-width: 767px) {
+  .fontType, .fontType-areas, .fontType-car {
+    font-size: 1.3rem;
+    padding: 5px;
+    text-align: justify; }
+  .form-label {
+    font-family: "Montserrat", sans seriff;
+    font-size: 1rem;
+    padding: 5px; }
+  .btn-color {
+    color: #090707;
+    font-weight: 500; } }
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .contenido {
+    overflow-x: hidden; }
+  .fontType, .fontType-areas, .fontType-car {
+    font-size: 1.3rem;
+    padding: auto;
+    text-align: justify;
+    margin-bottom: 5px; }
+  .form-label {
+    font-family: "Montserrat", sans seriff;
+    font-size: 1rem;
+    padding: 5px; }
+  .btn-color {
+    margin-top: 5px;
+    color: #090707;
+    font-weight: 500; }
+  .parrafoRrhh {
+    padding: 10px; } }
+
+@media only screen and (min-width: 991px) {
+  h2 {
+    text-align: center;
+    margin-bottom: 10px; }
+  legend {
+    margin-bottom: 50px; }
+  .parrafoRrhh {
+    padding: 90px;
+    text-align: justify;
+    font-size: 1rem;
+    line-height: 30px;
+    font-family: "Montserrat", sans seriff; }
+  .form-label {
+    font-size: 1rem; }
+  .btn-color {
+    color: #090707;
+    font-weight: 500;
+    padding: 5px; } }
+
+.primerTit {
+  font-family: "Montserrat", sans seriff;
+  font-weight: 500;
+  color: #090707;
+  text-decoration: none; }
+
+.fontType, .fontType-areas, .fontType-car {
+  text-align: center;
+  font-family: "Montserrat", sans seriff;
+  font-weight: 300;
+  font-size: 1.8rem;
+  color: #3E3B3A;
+  padding-left: 30px; }
+
+@media only screen and (min-width: 280px) and (max-width: 768px) {
+  * {
+    padding: 0;
+    margin: 0;
+    font-size: 62.5%;
+    overflow-x: hidden; }
+  .primerTit {
+    font-family: "Montserrat", sans seriff;
+    font-weight: 500;
+    color: white;
+    text-decoration: none; }
+  .parrafoSmall {
+    background-color: #090707;
+    color: white;
+    font-size: 1.8rem;
+    text-align: center; }
+  main {
+    background-color: white;
+    margin-top: 23px; }
+  h2 {
+    text-align: center;
+    font-size: 1.8rem; }
+  .carousel-item {
+    height: auto; }
+  .navbar-toggler {
+    background-color: #DDD8D7;
+    padding: auto;
+    margin: 5px; }
+  .fontType-areas, h3 {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    font-size: 1.5rem; }
+  footer h3 {
+    font-size: 1.3rem; }
+  .claseFooter p {
+    font-size: 1.3rem; } }
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  * {
+    padding: 0;
+    margin: 0;
+    font-size: 62.5%; }
+  .contenido {
+    overflow-x: hidden; }
+  .primerTit {
+    font-family: "Montserrat", sans seriff;
+    font-weight: 500;
+    color: white;
+    text-decoration: none; }
+  .fontType-areas, h3 {
+    font-size: 1.8rem;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding: 20px; }
+  .fontType-car {
+    font-size: 1.8rem; }
+  .claseFooter p {
+    font-size: 1.5rem; }
+  footer h3 {
+    font-size: 1.5rem; }
+  div .areasdeTrabajo {
+    padding-top: none; } }
+
+@media only screen and (min-width: 992px) {
+  * {
+    padding: 0;
+    margin: 0; }
+  .contenido {
+    overflow-x: hidden;
+    font-size: 62.5%; }
+  footer h3 {
+    font-size: 1.3rem; }
+  .tituloImp {
+    padding-bottom: 20px; }
+  article img {
+    display: flex;
+    justify-content: space-around; }
+  .imgLg {
+    padding-bottom: 20px; }
+  .fontType-areas, h3 {
+    font-size: 1.3rem; } }
+
+.navbar {
+  margin: 5px; }
+
+.nav-color {
+  color: #090707;
+  text-decoration: none;
+  font-weight: 500;
+  margin: 20px;
+  padding: 15px; }
+  .nav-color:hover {
+    color: #3E3B3A;
+    background-color: #DDD8D7;
+    text-decoration: none;
+    border-radius: 5px; }
+
+@media only screen and (min-width: 280px) and (max-width: 370px) {
+  h1 {
+    font-size: 1.4rem;
+    color: white; }
+  .navbar-toggler {
+    padding-bottom: 1px;
+    padding-top: 1px; } }
+
+@media only screen and (min-width: 280px) and (max-width: 767px) {
+  header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #3E3B3A;
+    font-size: 0.5rem;
+    color: white; }
+  .navbar-toggler {
+    background-color: #DDD8D7;
+    padding: auto;
+    margin: 5px; } }
+
+a h1 {
+  color: white;
+  text-decoration: none; }
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #3E3B3A;
+    color: white;
+    font-size: 0.5rem; }
+  .navbar-toggler {
+    background-color: #DDD8D7;
+    padding: auto;
+    margin: 5px; }
+  a h1 {
+    color: white;
+    text-decoration: none; } }
+
+@media only screen and (min-width: 992px) {
+  a h1 {
+    color: #090707;
+    text-decoration: none; } }
+
+.primerTit {
+  font-family: "Montserrat", sans seriff;
+  font-weight: 500;
+  color: #090707;
+  text-decoration: none; }
+
+.fontType, .fontType-areas, .fontType-car {
+  text-align: center;
+  font-family: "Montserrat", sans seriff;
+  font-weight: 300;
+  font-size: 1.8rem;
+  color: #3E3B3A;
+  padding-left: 30px; }
+
+@media only screen and (min-width: 280px) and (max-width: 768px) {
+  * {
+    padding: 0;
+    margin: 0;
+    font-size: 62.5%;
+    overflow-x: hidden; }
+  .primerTit {
+    font-family: "Montserrat", sans seriff;
+    font-weight: 500;
+    color: white;
+    text-decoration: none; }
+  .parrafoSmall {
+    background-color: #090707;
+    color: white;
+    font-size: 1.8rem;
+    text-align: center; }
+  main {
+    background-color: white;
+    margin-top: 23px; }
+  h2 {
+    text-align: center;
+    font-size: 1.8rem; }
+  .carousel-item {
+    height: auto; }
+  .navbar-toggler {
+    background-color: #DDD8D7;
+    padding: auto;
+    margin: 5px; }
+  .fontType-areas, h3 {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    font-size: 1.5rem; }
+  footer h3 {
+    font-size: 1.3rem; }
+  .claseFooter p {
+    font-size: 1.3rem; } }
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  * {
+    padding: 0;
+    margin: 0;
+    font-size: 62.5%; }
+  .contenido {
+    overflow-x: hidden; }
+  .primerTit {
+    font-family: "Montserrat", sans seriff;
+    font-weight: 500;
+    color: white;
+    text-decoration: none; }
+  .fontType-areas, h3 {
+    font-size: 1.8rem;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding: 20px; }
+  .fontType-car {
+    font-size: 1.8rem; }
+  .claseFooter p {
+    font-size: 1.5rem; }
+  footer h3 {
+    font-size: 1.5rem; }
+  div .areasdeTrabajo {
+    padding-top: none; } }
+
+@media only screen and (min-width: 992px) {
+  * {
+    padding: 0;
+    margin: 0; }
+  .contenido {
+    overflow-x: hidden;
+    font-size: 62.5%; }
+  footer h3 {
+    font-size: 1.3rem; }
+  .tituloImp {
+    padding-bottom: 20px; }
+  article img {
+    display: flex;
+    justify-content: space-around; }
+  .imgLg {
+    padding-bottom: 20px; }
+  .fontType-areas, h3 {
+    font-size: 1.3rem; } }
+
+/*estilo y breakpoints de contacto.html*/
+body {
+  overflow-x: hidden; }
+
+legend {
+  padding: 10px;
+  font-family: "Montserrat", sans seriff; }
+
+.form-label {
+  font-family: "Montserrat", sans seriff;
+  font-size: 1.3rem;
+  padding: 5px; }
+
+.form-control-consulta {
+  font-size: 4rem;
+  width: 100%; }
+
+.btn-color {
+  color: #090707;
+  font-weight: 500; }
+
+iframe {
+  padding: 20px; }
+
+@media only screen and (min-width: 991px) {
+  .form-label {
+    font-family: "Montserrat", sans seriff;
+    font-size: 1rem; }
+  .content {
+    background-color: #DDD8D7; }
+  iframe {
+    padding-top: 60px; }
+  legend {
+    font-size: 1.3rem;
+    align-items: center; } }

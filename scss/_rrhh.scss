@@ -1,0 +1,105 @@
+@import "_nav";
+@import "_commons";
+
+/*estilos y breakpoints de equipo.html*/
+
+.contenido{
+		overflow-x: hidden;
+
+
+	}
+
+@media only screen and (min-width: 280px) and (max-width: 767px){
+
+
+	.fontType{
+		font-size:map-get($size, size13); 
+		padding: 5px;
+		text-align: justify;
+	}
+
+	.form-label{
+		font-family: $fontMain;
+		font-size:map-get($size, size1);
+		padding:5px; 
+	}
+
+	
+	.btn-color{
+		color:map-get($estilos, color1);
+		font-weight: 500;
+	}
+}
+
+
+@media only screen and (min-width: 768px)and (max-width: 991px){
+
+.contenido{
+	
+	overflow-x: hidden;
+}	
+
+
+
+
+.fontType{
+		font-size:map-get($size, size13); 
+		padding: auto;
+		text-align: justify;
+		margin-bottom: 5px;
+	}
+
+.form-label{
+		font-family: $fontMain;
+		font-size:map-get($size, size1);
+		padding:5px; 
+	}
+
+.btn-color{
+		margin-top: 5px;
+		color:map-get($estilos, color1);
+		font-weight: 500;
+	}
+
+
+.parrafoRrhh{
+	padding:10px;
+}
+
+}
+
+
+@media only screen and (min-width: 991px){
+
+h2{
+	text-align:center;
+	margin-bottom: 10px;
+}
+
+legend{
+	margin-bottom: 50px;
+}
+
+
+.parrafoRrhh{
+	padding:90px;
+	text-align: justify;
+	font-size:map-get($size, size1);
+	line-height: 30px;
+	font-family: $fontMain;
+
+}
+
+.form-label{
+	font-size:map-get($size, size1);
+}
+
+
+
+.btn-color{
+		
+		color:map-get($estilos, color1);
+		font-weight: 500;
+		padding:5px;
+	}
+}

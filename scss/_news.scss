@@ -1,0 +1,70 @@
+@import "_nav";
+@import "_commons";
+
+/*estilos y breakpoints de novedades.html*/
+
+
+.body{overflow-x: hidden;
+
+}
+
+.btn-color{
+	background-color: map-get($estilos, color3);
+	color: map-get($estilos, color2);
+	padding:5px;
+	border: solid 2px grey;
+}
+
+
+.fondoCard{
+	background-color: map-get($estilos, color1);
+}
+
+.card{
+	position: unset;
+	padding:20px;
+	margin: 20px;	
+	border: solid 2px grey;
+
+
+
+}
+
+@media only screen and (min-width: 280px) and (max-width: 575px){
+
+.infoJudicial{
+	font-size:  map-get($size, size2);
+	padding: 10px;
+
+}
+}
+
+
+@media only screen and (min-width: 576px) and (max-width: 991px){
+
+.infoJudicial{
+	font-size:  map-get($size, size);
+	padding: 10px;
+}
+}
+
+
+@media only screen and (min-width: 991px){
+
+.infoJudicial{
+	font-size:  map-get($size, size1);
+	padding: 15px;
+	margin: 5px;
+	text-align: justify;
+
+}
+
+
+}
+
+	
+
+
+
+
+
